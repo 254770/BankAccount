@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BankAccount acc1 = new BankAccount("001", 1000);
+        BankAccount acc1 = new BankAccount("001", 5000);
         BankAccount acc2 = new BankAccount("002", 1500);
 
         Customer customer1 = new Customer("Tom", 18, acc1);
